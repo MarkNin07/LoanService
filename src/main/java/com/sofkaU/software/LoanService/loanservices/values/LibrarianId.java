@@ -1,4 +1,6 @@
 package com.sofkaU.software.LoanService.loanservices.values;
 
-public class LibrarianId {
+import co.com.sofka.domain.generic.Identity;
+
+public class LibrarianId extends Identity {
 }

@@ -1,4 +1,6 @@
 package com.sofkaU.software.LoanService.loanservices.values;
 
-public class UserId {
+import co.com.sofka.domain.generic.Identity;
+
+public class UserId  extends Identity {
 }
