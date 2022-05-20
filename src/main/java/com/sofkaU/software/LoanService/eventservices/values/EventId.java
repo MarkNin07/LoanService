@@ -1,4 +1,6 @@
 package com.sofkaU.software.LoanService.eventservices.values;
 
-public class EventId {
+import co.com.sofka.domain.generic.Identity;
+
+public class EventId extends Identity {
 }
