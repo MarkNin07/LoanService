@@ -1,4 +1,6 @@
 package com.sofkaU.software.LoanService.maintenance.values;
 
-public class MaintenanceId {
+import co.com.sofka.domain.generic.Identity;
+
+public class MaintenanceId extends Identity {
 }
