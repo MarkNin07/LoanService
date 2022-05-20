@@ -1,4 +1,6 @@
 package com.sofkaU.software.LoanService.eventservices.values;
 
-public class ScheduleId {
+import co.com.sofka.domain.generic.Identity;
+
+public class ScheduleId extends Identity {
 }

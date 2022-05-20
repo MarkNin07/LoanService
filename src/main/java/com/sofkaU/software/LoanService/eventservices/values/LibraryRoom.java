@@ -1,4 +1,10 @@
 package com.sofkaU.software.LoanService.eventservices.values;
 
-public class LibraryRoom {
+import co.com.sofka.domain.generic.ValueObject;
+
+public class LibraryRoom implements ValueObject<String> {
+    @Override
+    public String value() {
+        return null;
+    }
 }

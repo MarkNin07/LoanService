@@ -1,4 +1,10 @@
 package com.sofkaU.software.LoanService.eventservices.values;
 
-public class Experience {
+import co.com.sofka.domain.generic.ValueObject;
+
+public class Experience implements ValueObject<Integer> {
+    @Override
+    public Integer value() {
+        return null;
+    }
 }

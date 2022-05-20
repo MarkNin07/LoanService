@@ -1,4 +1,11 @@
 package com.sofkaU.software.LoanService.eventservices.values;
 
-public class Date {
+import co.com.sofka.domain.generic.ValueObject;
+
+
+public class Date implements ValueObject<java.util.Date> {
+    @Override
+    public java.util.Date value() {
+        return null;
+    }
 }
