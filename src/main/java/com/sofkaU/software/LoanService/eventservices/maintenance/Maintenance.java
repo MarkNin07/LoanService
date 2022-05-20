@@ -1,7 +1,7 @@
-package com.sofkaU.software.LoanService.maintenance;
+package com.sofkaU.software.LoanService.eventservices.maintenance;
 
 import co.com.sofka.domain.generic.AggregateEvent;
-import com.sofkaU.software.LoanService.maintenance.values.MaintenanceId;
+import com.sofkaU.software.LoanService.eventservices.maintenance.values.MaintenanceId;
 
 public class Maintenance extends AggregateEvent<MaintenanceId> {
 

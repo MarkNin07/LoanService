@@ -6,6 +6,8 @@ import com.sofkaU.software.LoanService.shared.Name;
 
 public class EventServices extends AggregateEvent<EventId> {
 
+    protected Name name;
+
     public EventServices(EventId entityId, Name name) {
         super(entityId);
     }
